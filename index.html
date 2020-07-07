@@ -1,3 +1,46 @@
+<style>
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150
+
+    }
+    .search {
+        width: 500px;
+        height: 40px;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        display: block;
+        margin-right:auto;
+        margin-left: auto;
+        margin-top: 40;
+
+    }
+    .button {
+        width: 150px;
+        height: 35px;
+        border: 0px;
+        border-radius: 5px;   
+    }
+    .topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav1 {
+        display: inline; 
+        margin-left: 15;
+    }
+    .nav2 {
+        display: inline;
+        margin-left: 1400;
+    }
+    .nav3 {
+        display: inline;
+        margin-left: 15;
+    }
+</style>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,12 +48,22 @@
     </head>
     <body>
         <header>
-
+            <ul class="topnav">
+                <li class="nav1">About</li>
+                <li class="nav1">Store</li>
+                <li class="nav2">Gmail</li>
+                <li class="nav3">Images</li>
+            </ul>
         </header>
         <main>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <button>Search</button>
-            <button>I'm Feeling Lucky</button>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+            <div>
+                <input type="text" class="search">
+            </div>
+            <span>
+            <button class="button">Search</button>
+            <button class="button">I'm Feeling Lucky</button>
+            </span>
         </main>
         <footer>
 
