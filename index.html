@@ -21,7 +21,8 @@
         width: 150px;
         height: 35px;
         border: 0px;
-        border-radius: 5px;   
+        border-radius: 5px;
+        
     }
     .topnav {
         list-style-type: none;
@@ -39,6 +40,27 @@
     .nav3 {
         display: inline;
         margin-left: 15;
+    }
+    .bottnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #F1F0EF;
+    }
+    .leftnav {
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .rightnav {
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 </style>
 <!DOCTYPE html>
@@ -66,7 +88,14 @@
             </span>
         </main>
         <footer>
-
+            <ul class="bottnav">
+                <li class="leftnav">Advertising</li>
+                <li class="leftnav">Business</li>
+                <li class="leftnav">How Search works</li>
+                <li class="rightnav">Settings</li>
+                <li class="rightnav">Terms</li>
+                <li class="rightnav">Privacy</li>
+            </ul>
         </footer>
     </body>
 </html>
