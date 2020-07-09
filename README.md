@@ -1,1 +1,1 @@
-This is my first project on The Odin Project on building the google homepage
+This is my first project on The Odin Project building the google homepage
