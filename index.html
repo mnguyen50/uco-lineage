@@ -41,14 +41,18 @@
     .nav1 {
         display: inline; 
         margin-left: 15;
+    
     }
     .nav2 {
-        display: inline;
-        margin-left: 1400;
+        display:inline;
+        margin-left: 14;
+        float: right;
     }
-    .nav3 {
-        display: inline;
-        margin-left: 15;
+    .nav1:hover {
+        text-decoration: underline;
+    }
+    .nav2:hover {
+        text-decoration: underline;
     }
     .bottnav {
         list-style-type: none;
@@ -74,6 +78,12 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    .leftnav:hover {
+        text-decoration: underline;
+    }
+    .rightnav:hover {
+        text-decoration: underline;
+    }
 </style>
 <!DOCTYPE html>
 <html>
@@ -83,10 +93,10 @@
     <body>
         <header>
             <ul class="topnav">
-                <li class="nav1">About</li>
-                <li class="nav1">Store</li>
-                <li class="nav2">Gmail</li>
-                <li class="nav3">Images</li>
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" style="color:gray"><li class="nav1">About</li></a>
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" style="color:gray"><li class="nav1">Store</li></a>
+                <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl" style="color:gray"><li class="nav2">Gmail</li></a>
+                <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl" style="color:gray"><li class="nav2">Images</li></a>
             </ul>
         </header>
         <main>
@@ -101,12 +111,12 @@
         </main>
         <footer>
             <ul class="bottnav">
-                <li class="leftnav">Advertising</li>
-                <li class="leftnav">Business</li>
-                <li class="leftnav">How Search works</li>
-                <li class="rightnav">Settings</li>
-                <li class="rightnav">Terms</li>
-                <li class="rightnav">Privacy</li>
+                <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" style="color:gray;"><li class="leftnav">Advertising</li></a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" style="color:gray"><li class="leftnav">Business</li></a>
+                <a href="https://google.com/search/howsearchworks/?fg=1" style="color:gray"><li class="leftnav">How Search works</li></a>
+                <a href="https://policies.google.com/privacy?fg=1" style="color:gray"><li class="rightnav">Settings</li></a>
+                <a href="https://policies.google.com/terms?fg=1" style="color:gray"><li class="rightnav">Terms</li></a>
+                <a href="https://www.google.com/preferences?hl=en" style="color:gray"><li class="rightnav">Privacy</li></a>
             </ul>
         </footer>
     </body>
