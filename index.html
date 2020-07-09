@@ -8,15 +8,22 @@
 
     }
     .search {
-        width: 580px;
+        width: 530px;
         height: 40px;
         border: 1px solid lightgray;
         border-radius: 20px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;
-
+        margin-top: 10px;
+        padding-inline-start: 40px;
+    }
+    .search:focus {
+        outline:none;
+    }
+    .search:hover {
+        border: solid;
+        border-color: #f5f5f5;
     }
     .buttoncon {
         text-align: center;
@@ -80,7 +87,7 @@
         background-color: #F1F0EF;
         font-family:Arial, Helvetica, sans-serif;
         font-size: 14px;
-        color: gray;
+        right: 0px;
     }
     .leftnav {
         float: left;
@@ -100,14 +107,22 @@
     .rightnav:hover {
         text-decoration: underline;
     }
-    .material-icon {
-        display: inline-block;
-        
+    .material-icons {
+        position: absolute;
+        margin-left: 565px;
+        margin-top: 10px;
+    }
+    #mic {
+        height: 20px;
+        width: auto;
+        position: absolute;
+        margin-left: 1090px;
+        margin-top: 12px;
     }
 </style>
 <html>
     <head>
-        <title>Google Homepage</title>
+        <title>Google</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
@@ -125,6 +140,7 @@
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
             <div>
                 <i class="material-icons" style="color:gray">search</i>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg" alt="Google microphone" id="mic">
                 <input type="text" class="search">
             </div>
             <div class="buttoncon">
